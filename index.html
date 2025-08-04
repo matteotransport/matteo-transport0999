@@ -2,67 +2,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Matteo Transport LLC</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-        }
-        .hero-full {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        header {
-            background: #002c5f;
-            color: #fff;
-            padding: 25px 40px;
-            text-align: center;
-        }
-        section {
-            padding: 50px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        h2 {
-            color: #002c5f;
-            margin-bottom: 15px;
-        }
-        footer {
-            background: #002c5f;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matteo Transport LLC</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #002c5f;
+      color: #fff;
+      padding: 25px 40px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+    }
+    .hero-full, .section-img {
+      width: 100%;
+      display: block;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #002c5f;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #002c5f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Matteo Transport LLC</h1>
-        <p>Driven by Experience. Powered by Reliability.</p>
-    </header>
+  <header>
+    <h1>Matteo Transport LLC</h1>
+    <p>Driven by Experience. Powered by Reliability.</p>
+  </header>
 
-    <img class="hero-full" src="hero.jpg" alt="Matteo Transport Services and Fleet" />
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#careers">Careers</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section>
-        <h2>About Matteo Transport</h2>
-        <p>
-            We are a Michigan-based trucking company offering dry van, box truck, and sprinter van solutions nationwide.
-            With a professional fleet, experienced drivers, and a customer-first attitude, we deliver your freight reliably and on time.
-        </p>
-    </section>
+  <img class="hero-full" src="hero.jpg" alt="Matteo Transport Fleet" />
 
-    <footer>
-        &copy; 2025 Matteo Transport LLC. All rights reserved.
-    </footer>
+  <section id="about">
+    <h2>About Matteo Transport</h2>
+    <p>
+      We are a Michigan-based trucking company offering dry van, box truck, and sprinter van solutions nationwide.
+      With a professional fleet, experienced drivers, and a customer-first attitude, we deliver your freight reliably and on time.
+    </p>
+  </section>
+
+  <img class="section-img" src="section2.jpg" alt="Second Fleet Visual" />
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Dry Van Shipping</li>
+      <li>Box Truck Delivery</li>
+      <li>Sprinter Van Express</li>
+      <li>Regional & OTR Freight</li>
+      <li>Owner Operator Leasing</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Matteo Transport LLC. All rights reserved.
+  </footer>
 </body>
 </html>
